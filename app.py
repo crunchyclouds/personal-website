@@ -4,8 +4,6 @@ from PIL import Image
 
 #loading images etc in
 img_double_helix = Image.open(r"C:\Users\mihir\Programs\Documents\GitHub\personal-website\images\double helix.webp")
-
-
 st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
 
 #homepage header
