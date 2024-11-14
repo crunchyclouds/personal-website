@@ -3,12 +3,12 @@ from PIL import Image
 from pathlib import Path
 
 #loading images etc in
-img_engineering_showcase = Image.open(r"images\engineering_showcase.jfif")
-img_xerion_group_photo = Image.open(r"images\xerion_group_photo.jfif")
-img_chemistry_open_house = Image.open(r"images\chemistry_open_house.jpg")
-img_happy_bacteria = Image.open(r"images\happy_bacteria.jpg")
-img_mole = Image.open(r"images\mole.jpg")
-img_slipknot_concert = Image.open(r"images\slipknot_concert.jpg")
+img_engineering_showcase = Image.open(r"images/engineering_showcase.jfif")
+img_xerion_group_photo = Image.open(r"images/xerion_group_photo.jfif")
+img_chemistry_open_house = Image.open(r"images/chemistry_open_house.jpg")
+img_happy_bacteria = Image.open(r"images/happy_bacteria.jpg")
+img_mole = Image.open(r"images/mole.jpg")
+img_slipknot_concert = Image.open(r"images/slipknot_concert.jpg")
 st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
 
 #homepage header
