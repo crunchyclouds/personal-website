@@ -73,12 +73,12 @@ with st.container():
     with text_column:
         st.subheader("Chemistry is Radical!")
         st.write("I love the ability to inspect atomic and molecular properties and seeing how"
-                 "those changes propagate to the macroscale. Here's me with a mole :).")
+                 " those changes propagate to the macroscale. Here's me with a mole :)")
 
     image_column, text_column = st.columns((1,2))
     with image_column:
         st.image(img_slipknot_concert)
     with text_column:
         st.subheader("Music")
-        st.write("Listening to music and attending concerts is a lot of fun. My current favorite"
-                 "artist is Siouxsie and the Banshees")
+        st.write("Listening to music and attending concerts is a lot of fun. My current favorite "
+                 "artist is Siouxsie and the Banshees.")
