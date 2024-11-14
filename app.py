@@ -3,10 +3,12 @@ from PIL import Image
 from pathlib import Path
 
 #loading images etc in
-img_engineering_showcase = Image.open("images/engineering_showcase.jfif")
-img_xerion_group_photo = Image.open("images/xerion_group_photo.jfif")
-img_chemistry_open_house = Image.open("images/chemistry_open_house.jpg")
-
+img_engineering_showcase = Image.open(r"images\engineering_showcase.jfif")
+img_xerion_group_photo = Image.open(r"images\xerion_group_photo.jfif")
+img_chemistry_open_house = Image.open(r"images\chemistry_open_house.jpg")
+img_happy_bacteria = Image.open(r"images\happy_bacteria.jpg")
+img_mole = Image.open(r"images\mole.jpg")
+img_slipknot_concert = Image.open(r"images\slipknot_concert.jpg")
 st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
 
 #homepage header
@@ -15,11 +17,10 @@ st.title("I'm a materials scientist studying at Texas A&M University.")
 st.write("I love learning about chemistry and sharing my love for science with others!")
 st.write("[Contact me via LinkedIn](https://www.linkedin.com/in/mihir-kalvakaalva)")
 
-#my experiences
-
+#my work
 with st.container():
     st.write("---")
-    st.header("Experiences")
+    st.header("My Experiences")
     st.write("##")
 
     image_column, text_column = st.columns((1,2))
@@ -49,3 +50,35 @@ with st.container():
         st.write("In my ongoing role as Science Chair in the Society of Asian Scientists and Engineers,"
                  "I get to fulfill my interest in spreading interest in science at events like the A&M"
                  "Chemistry Open House")
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_happy_bacteria)
+    with text_column:
+        st.subheader("Biofuels Research Assistant")
+        st.write("In the 2023-2024 school year, I assisted work on biofuel synthesis in the Holtzapple"
+                 " Group. We used a variety of feedstocks and bacteria to produce carboxylic acids. I"
+                 "worked both small-scale R&D and a steady-state fermentation system.")
+
+#my interests
+with st.container():
+    st.write("---")
+    st.header("My Interests")
+    st.write("##")
+
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_mole)
+    with text_column:
+        st.subheader("Chemistry is Radical!")
+        st.write("I love the ability to inspect atomic and molecular properties and seeing how"
+                 "those changes propagate to the macroscale. Here's me with a mole :).")
+
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_mole)
+    with text_column:
+        st.subheader("Music")
+        st.write("Listening to music and attending concerts is a lot of fun. My current favorite"
+                 "artist is Siouxsie and the Banshees")
