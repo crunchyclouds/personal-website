@@ -77,7 +77,7 @@ with st.container():
 
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_mole)
+        st.image(img_slipknot_concert)
     with text_column:
         st.subheader("Music")
         st.write("Listening to music and attending concerts is a lot of fun. My current favorite"
