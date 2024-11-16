@@ -2,6 +2,11 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 
+def general_config():
+    pg = st.navigation([
+    st.Page("page1.py", title="First page", icon="🔥"),
+    st.Page(page2, title="Second page", icon=":material/favorite:"),
+])
 def home_page():
     st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
     #homepage header
@@ -83,6 +88,13 @@ def my_interests():
             st.subheader("Music")
             st.write("Listening to music and attending concerts is a lot of fun. My current favorite "
                      "artist is Siouxsie and the Banshees.")
+
+def project_page():
+    st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
+    #homepage header
+    st.subheader("Projects")
+    st.write("I enjoy applying my knowledge in materials science to computational and coded projects.")
+    st.write("[Check out my Github](https://github.com/crunchyclouds)")
 
 home_page()
 my_experiences()
