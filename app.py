@@ -90,8 +90,7 @@ def project_page():
     st.subheader("Projects")
     st.write("I enjoy applying my knowledge in materials science to computational and coded projects.")
     st.write("[Check out my Github](https://github.com/crunchyclouds)")
-
-general_config()
+    
 home_page()
 my_experiences()
 my_interests()
