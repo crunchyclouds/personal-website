@@ -95,4 +95,4 @@ general_config()
 home_page()
 my_experiences()
 my_interests()
-project_page():
+project_page()
