@@ -2,10 +2,6 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 
-def general_config():
-    pg = st.navigation([
-    st.Page(home_page(), title="Home page", icon=":material/favorite:"),
-])
 def home_page():
     st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
     #homepage header
@@ -99,3 +95,4 @@ general_config()
 home_page()
 my_experiences()
 my_interests()
+project_page():
