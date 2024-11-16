@@ -4,8 +4,7 @@ from pathlib import Path
 
 def general_config():
     pg = st.navigation([
-    st.Page("page1.py", title="First page", icon="🔥"),
-    st.Page(page2, title="Second page", icon=":material/favorite:"),
+    st.Page(home_page(), title="Home page", icon=":material/favorite:"),
 ])
 def home_page():
     st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
