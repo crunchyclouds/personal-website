@@ -7,7 +7,7 @@ def home_page():
     #homepage header
     st.subheader("Hey, I'm Mihir! :wave:")
     st.title("I'm a materials scientist studying at Texas A&M University.")
-    st.write("I love learning about chemistry and sharing my love for science with others!")
+    st.write("Here's my CV below.")
     st.write("[Contact me via LinkedIn](https://www.linkedin.com/in/mihir-kalvakaalva)")
 
 def my_experiences():
