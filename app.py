@@ -85,7 +85,7 @@ def my_interests():
                      "artist is Siouxsie and the Banshees.")
 
 def project_page():
-    st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
+    st.set_page_config(page_title="Mihir Kalvakaalva", page_icon=":ogre", layout="wide")
     #homepage header
     st.subheader("Projects")
     st.write("I enjoy applying my knowledge in materials science to computational and coded projects.")
