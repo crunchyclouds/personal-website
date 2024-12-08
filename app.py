@@ -3,7 +3,7 @@ from PIL import Image
 from pathlib import Path
 
 def home_page():
-    st.set_page_config(page_title="Mihir's Webpage", page_icon=":ogre", layout="wide")
+    st.set_page_config(page_title="Mihir Kalvakaalva", page_icon=":ogre", layout="wide")
     #homepage header
     st.subheader("Hey, I'm Mihir! :wave:")
     st.title("I'm a materials scientist studying at Texas A&M University.")
