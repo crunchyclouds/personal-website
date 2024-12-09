@@ -1,3 +1,10 @@
+
+import streamlit as st
+from PIL import Image
+from pathlib import Path
+
+st.set_page_config(page_title="Curriculum Vitae - Mihir Kalvakaalva", page_icon=":ogre", layout="wide")
+
 img_mole = Image.open(r"images/mole.jpg")
 img_slipknot_concert = Image.open(r"images/slipknot_concert.jpg")
 
