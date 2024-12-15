@@ -30,7 +30,8 @@ st.write("###")
 
 #body
 st.title("My Interests")
-st.write("###")
+st.write("")
+st.write("")
 with st.container():
     st.subheader("Current favorites")
     left_column, middle_column, right_column = st.columns([1,3.5,5])
@@ -53,7 +54,7 @@ with st.container():
     with left_column:
         st.image(img_coffee)
     with middle_column:
-        st.subheader("Natural Indonesian Sumatra")
+        st.subheader("Indonesian Sumatra")
     with right_column:
         st.write("I'm currently having a natural processed bean from What's the Buzz in College "
                  "Station. It's a chocolatey taste that pairs well with a V60 brew.")
