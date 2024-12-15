@@ -43,6 +43,7 @@ with st.container():
             data=cv_pdf,
             file_name="Mihir Kalvakaalva Curriculum Vitae.pdf",
             mime="application/octet-stream")
+    st.write("")
 
     st.subheader("Research Appointments")
     image_column, text_column = st.columns((1,2))
