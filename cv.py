@@ -12,6 +12,7 @@ img_chemistry_open_house = Image.open(r"images/chemistry_open_house.jpg")
 img_happy_bacteria = Image.open(r"images/happy_bacteria.jpg")
 img_rev_photo = Image.open(r"images/rev_photo.jpg")
 img_zachry = Image.open(r"images/zachry.jpg")
+img_matsci = Image.open(r"images/dofmaterialsscience.jpg")
 
 #navigation menu
 with st.container():
@@ -82,6 +83,18 @@ with st.container():
         st.text("")
 
     st.subheader("Teaching and Leadership Roles")
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_chemistry_open_house)
+        st.caption("Jan 2025 to Current")
+        st.text("")
+    with text_column:
+        st.subheader("Materials Science Tutor/Supplemental Instructor")
+        st.write("As a tutor for the Texas A&M Department of Materials Science and Engineering, I am "
+                 "able to give back to my fellow students by tutoring students on departmental classes such as "
+                 "thermodynamics, soft matter, and introductory crystallography")
+        st.text("")
+
     image_column, text_column = st.columns((1,2))
     with image_column:
         st.image(img_chemistry_open_house)
