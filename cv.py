@@ -16,9 +16,7 @@ img_matsci = Image.open(r"images/dofmaterialsscience.jpg")
 
 #navigation menu
 with st.container():
-    t0, t1, t2, t3 = st.columns((1,1,1,1))
-    with t0:
-        st.page_link("aboutme.py", label="Mihir Kalvakaalva",)
+    t1, t2, t3 = st.columns((1,1,1))
     with t1:
         st.page_link("aboutme.py", label="About Me", icon=":material/emoji_people:")
     with t2:
@@ -85,14 +83,14 @@ with st.container():
     st.subheader("Teaching and Leadership Roles")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_chemistry_open_house)
+        st.image(img_matsci)
         st.caption("Jan 2025 to Current")
         st.text("")
     with text_column:
         st.subheader("Materials Science Tutor/Supplemental Instructor")
         st.write("As a tutor for the Texas A&M Department of Materials Science and Engineering, I am "
-                 "able to give back to my fellow students by tutoring students on departmental classes such as "
-                 "thermodynamics, soft matter, and introductory crystallography")
+                 "able to help my fellow student on departmental classes such as "
+                 "thermodynamics, soft matter, and introductory crystallography.")
         st.text("")
 
     image_column, text_column = st.columns((1,2))
@@ -101,10 +99,10 @@ with st.container():
         st.caption("July 2024 to Current")
         st.text("")
     with text_column:
-        st.subheader("Science Chair of SASE Texas A&M Chapter")
-        st.write("In my ongoing role as Science Chair in the Society of Asian Scientists and Engineers, "
-                    "I get to fulfill my interest in spreading interest in science at events like the TAMU "
-                    "Chemistry Open House.")
+        st.subheader("Science Director of SASE Texas A&M Chapter")
+        st.write("In my ongoing role as Science Director of the Society of Asian Scientists and Engineers, "
+                    "I organize and lead science outreach activities in our local community. One of my favorites "
+                    "is our recent circuit and electricity interactive booth at the A&M Math and Statistics Fair.")
         st.text("")
 
     st.subheader("Education")

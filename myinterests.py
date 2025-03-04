@@ -7,7 +7,7 @@ from pathlib import Path
 st.set_page_config(page_title="My Interests - Mihir Kalvakaalva", page_icon=":ogre", layout="wide")
 
 #relevant files
-img_mole = Image.open(r"images/mole.jpg")
+img_mathfair = Image.open(r"images/mathfairme.jpg")
 img_slipknot_concert = Image.open(r"images/slipknot_concert.jpg")
 img_moon = Image.open(r"images/moon.jpg")
 img_weil = Image.open(r"images/weil_conjectures.jpg")
@@ -16,9 +16,7 @@ img_coffee = Image.open(r"images/coffee.jpg")
 
 #navigation menu
 with st.container():
-    t0, t1, t2, t3 = st.columns((1,1,1,1))
-    with t0:
-        st.page_link("aboutme.py", label="Mihir Kalvakaalva",)
+    t1, t2, t3 = st.columns((1,1,1))
     with t1:
         st.page_link("aboutme.py", label="About Me", icon=":material/emoji_people:")
     with t2:
@@ -46,10 +44,9 @@ with st.container():
     with left_column:
         st.image(img_corpus)
     with middle_column:
-        st.subheader("Corpus Delicti")
+        st.subheader("Fiona Apple")
     with right_column:
-        st.write("Corpus Delicti is a French goth-rock band from the 90s. My favorite song is "
-                 "'Absent Friend'.")
+        st.write("Fiona Apple is pretty inter-genre with a song-style that heavily focuses on voice and lyricism.")
     left_column, middle_column, right_column = st.columns([1, 3.5, 5])
     with left_column:
         st.image(img_coffee)
@@ -66,11 +63,11 @@ with st.container():
 
     image_column, text_column = st.columns((1,2))
     with image_column:
-        st.image(img_mole)
+        st.image(img_mathfair)
     with text_column:
-        st.subheader("Chemistry is radical!")
-        st.write("I love our ability to inspect and change properties at the molecular scale "
-                 "and enjoy engaging with the field at every chance!")
+        st.subheader("STEM Outreach")
+        st.write("It's amazing being able to show kids the same joy in chemistry and science that led me to "
+                 "STEM years ago.")
 
     image_column, text_column = st.columns((1,2))
     with image_column:

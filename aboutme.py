@@ -10,9 +10,7 @@ img_rev_photo = Image.open(r"images/rev_photo.jpg")
 
 #navigation menu
 with st.container():
-    t0, t1, t2, t3 = st.columns((1,1,1,1))
-    with t0:
-        st.page_link("aboutme.py", label="Mihir Kalvakaalva",)
+    t1, t2, t3 = st.columns((1,1,1))
     with t1:
         st.page_link("aboutme.py", label="About Me", icon=":material/emoji_people:")
     with t2:
@@ -34,12 +32,14 @@ with st.container():
     with right_column:
         st.write("Howdy, I'm studying materials science and engineering at Texas A&M University. "
                  "My ongoing research in the Banerjee Group focuses on the synthesis of phase transition "
-                 "oxides for batteries. I love learning about topics of physical and "
-                 "inorganic chemistry.")
+                 "oxides for batteries. \nI am also a member of the Texas A&M Supercomputing team, where "
+                 "I compete in topics of supercomputer assembly and utilizing an HPC for theoretical "
+                 "chemistry topics.")
         st.write("")
         st.write("On campus, I'm a tutor for our materials science department "
-                 "and the science chair of my student organization, The Society of "
-                 "Asian Scientists and Engineers.")
+                 "and the science director of my student organization, The Society of "
+                 "Asian Scientists and Engineers. I believe the communication and dessemination of STEM topics is "
+                 "one of our greatest strengths and high priorities.")
         st.write("")
         st.write("At home, I love engaging with my hobbies. Pour-over coffee and amateur "
                  "astronomy are a couple of my big ones. There's so much fun science and "
