@@ -11,7 +11,7 @@ img_mathfair = Image.open(r"images/mathfairme.jpg")
 img_slipknot_concert = Image.open(r"images/slipknot_concert.jpg")
 img_moon = Image.open(r"images/moon.jpg")
 img_weil = Image.open(r"images/weil_conjectures.jpg")
-img_corpus = Image.open(r"images/corpusdelicti.jpg")
+img_fiona = Image.open(r"images/fionaalbum.jpg")
 img_coffee = Image.open(r"images/coffee.jpg")
 
 #navigation menu
@@ -42,7 +42,7 @@ with st.container():
                  " It's a biography-ish about Simone and Andre Weil's lives.")
     left_column, middle_column, right_column = st.columns([1, 3.5, 5])
     with left_column:
-        st.image(img_corpus)
+        st.image(img_fiona)
     with middle_column:
         st.subheader("Fiona Apple")
     with right_column:
@@ -67,7 +67,7 @@ with st.container():
     with text_column:
         st.subheader("STEM Outreach")
         st.write("It's amazing being able to show kids the same joy in chemistry and science that led me to "
-                 "STEM years ago.")
+                 "STEM many years ago.")
 
     image_column, text_column = st.columns((1,2))
     with image_column:

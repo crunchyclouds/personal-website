@@ -53,7 +53,7 @@ with st.container():
     with text_column:
         st.subheader("Materials Scientist Intern at Xerion Advanced Battery")
         st.write("This past summer, I interned at an R&D Battery company, where I worked on "
-                    "exciting topics relating to Li-ion batteries.")
+                    "exciting topics relating to interface chemistry and electrochemical cycling.")
         st.text("")
 
     image_column, text_column = st.columns((1,2))
@@ -64,7 +64,7 @@ with st.container():
     with text_column:
         st.subheader("Project Lead on Vapor Compression Desalination")
         st.write("In 2024, I worked on a vapor compression desalination project under the "
-                    "advice of Dr. Mark Holtzapple. We made substantial progress on the technology"
+                    "advice of Dr. Mark Holtzapple. We made substantial progress on the technology "
                     "and won 2nd at the Texas A&M Student Research Week.")
         st.text("")
 
@@ -89,7 +89,7 @@ with st.container():
     with text_column:
         st.subheader("Materials Science Tutor/Supplemental Instructor")
         st.write("As a tutor for the Texas A&M Department of Materials Science and Engineering, I am "
-                 "able to help my fellow student on departmental classes such as "
+                 "able to help my fellow students on departmental classes such as "
                  "thermodynamics, soft matter, and introductory crystallography.")
         st.text("")
 
@@ -102,7 +102,7 @@ with st.container():
         st.subheader("Science Director of SASE Texas A&M Chapter")
         st.write("In my ongoing role as Science Director of the Society of Asian Scientists and Engineers, "
                     "I organize and lead science outreach activities in our local community. One of my favorites "
-                    "is our recent circuit and electricity interactive booth at the A&M Math and Statistics Fair.")
+                    "is our recent 'circuits and electricity' interactive booth at the A&M Math and Statistics Fair.")
         st.text("")
 
     st.subheader("Education")
@@ -114,6 +114,6 @@ with st.container():
     with text_column:
         st.subheader("Texas A&M University")
         st.write("I'm pursuing a Bachelor's of Science in Materials Science and "
-                 "Engineering at Texas A&M University. I'm also completing a minor "
-                 "in Mathematics. I will be graduating in Spring 2026 with intention to "
+                 "Engineering with a minor in Mathematics at Texas A&M University. I will "
+                 "be graduating in Spring 2026 with intention to "
                  "pursue further studies in chemistry and materials science.")
